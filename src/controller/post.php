@@ -38,6 +38,10 @@ class Post
         fwrite($post, json_encode($_POST, JSON_PRETTY_PRINT));
         fclose($post);
     }
+    private function read()
+    {
+        console.log($path . '/' . time() . '.json')
+    }
 }
 
 // post.php
